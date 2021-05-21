@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="colorPrimary">#d84315</color>
+    <color name="colorPrimaryDark">#bf360c</color>
+    <color name="colorAccent">#ff6e40</color>
+    <color name="windowColor">#E8E8E8</color>
+    <color name="ventilatingWindowColor">#000000</color>
+    <color name="settingsPopupColor">#CCCCCC</color>
+    <color name="topLeftLogoTint">#EAE9E9</color>
+    <color name="arrowColor">#636262</color>
+    <color name="headingColor">#000000</color>
+    <color name="subheadingColor">#000000</color>
+    <color name="nextColor">#1287E4</color>
+    <color name="popupWindowBackgroundColor">#E8E8E8</color>
+    <color name="colorRecieveText">#00FF00</color>
+    <color name="colorSendText">#82CAFF</color>
+    <color name="colorStatusText">#FFDB58</color>
+    <color name="blackButtonColor">#222222</color>
+    <color name="appThemeBackgroundColor">#333333</color>
+    <color name="bottomButtonColor">#000000</color>
+    <color name="bottomButtonBorderColor">#666666</color>
+    <color name="bottomButtonNumberColor">#A0BBF0</color>
+    <color name="ventTabSymbolColor">#6A6A6A</color>
+    <color name="alarmLimUnitsColor">#666666</color>
+    <color name="alertRed">#d90000</color>
+
+    <color name="morePopupLayoutColor">#282828</color>
+    <color name="morePopupBorderColor">#444444</color>
+</resources>

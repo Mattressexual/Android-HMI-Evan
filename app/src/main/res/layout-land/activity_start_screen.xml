@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appThemeBackgroundColor"
+    tools:context=".StartScreenActivity"
+    android:theme="@style/Theme.AndroidHMIEvan">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/ventilation_symbol"
+                app:tint="@color/white"
+                android:contentDescription="@string/logo_desc" />
+
+            <Button
+                android:id="@+id/standby_button"
+                style="?attr/materialButtonOutlinedStyle"
+                android:backgroundTint="@color/black"
+                app:strokeColor="@color/white"
+                android:layout_width="140dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="15dp"
+                android:drawableTop="@drawable/ic_hand_transparent_white"
+                android:text="@string/standby"
+                android:textSize="12sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/settings_button"
+                style="?attr/materialButtonOutlinedStyle"
+                android:backgroundTint="@color/black"
+                app:strokeColor="@color/white"
+                android:layout_width="140dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="5dp"
+                android:paddingTop="15dp"
+                android:drawableTop="@drawable/ic_gear_transparent_white"
+                android:text="@string/settings"
+                android:textSize="12sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/alarm_limits_button"
+                style="?attr/materialButtonOutlinedStyle"
+                android:backgroundTint="@color/black"
+                app:strokeColor="@color/white"
+                android:layout_width="140dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="5dp"
+                android:drawableTop="@drawable/ic_bell_transparent_white"
+                android:paddingTop="15dp"
+                android:text="@string/alarm_limits"
+                android:textSize="12sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/log_button"
+                style="?attr/materialButtonOutlinedStyle"
+                android:backgroundTint="@color/black"
+                app:strokeColor="@color/white"
+                android:layout_width="140dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="5dp"
+                android:drawableTop="@drawable/ic_log_transparent_white"
+                android:paddingTop="15dp"
+                android:text="@string/log"
+                android:textSize="12sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/more_button"
+                style="?attr/materialButtonOutlinedStyle"
+                android:backgroundTint="@color/black"
+                app:strokeColor="@color/white"
+                android:layout_width="140dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/more"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/alarm_silence_button"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:drawableTop="@drawable/ic_alarm_silence"
+                    android:paddingTop="15dp"/>
+
+                <Button
+                    android:id="@+id/alarm_bar_button"
+                    android:layout_width="750dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="start"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:textAlignment="textStart"
+                    android:text="@string/no_alarms"
+                    android:textSize="20sp"/>
+
+                <Button
+                    android:id="@+id/oxygen_100_button"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:backgroundTint="@color/black"
+                    app:strokeColor="@color/white"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginStart="50dp"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragment_container_view"
+                android:layout_width="1040dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@color/white">
+            </androidx.fragment.app.FragmentContainerView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

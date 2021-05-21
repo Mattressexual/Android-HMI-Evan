@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android-HMI-Evan</string>
+    <string name="tvp_logo">TVP Logo</string>
+    <string name="aira">AIRA</string>
+    <string name="version">Software: v1.3 | Hardware: v1.1.9 | Serial Number: 8928–27472</string>
+    <string name="human_machine_interface">Human Machine Interface</string>
+    <string name="standby">Standby</string>
+    <string name="settings">Settings</string>
+    <string name="alarm_limits">Alarm Limits</string>
+    <string name="log">Log</string>
+    <string name="logo_desc">Top left TVP Logo</string>
+    <string name="no_alarms">No Alarms</string>
+    <string name="bell">Bell</string>
+    <string name="new_patient">New Patient</string>
+    <string name="same_patient">Same Patient</string>
+    <string name="more">More</string>
+</resources>
